@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Images</title>
-    </head>
-    <body>
-        <h1>About Me</h1>
-        <p>What do I do?</p>
-        <img src="waterfall.jpg">
-    </body>
+
+<head>
+    <title>Images</title>
+</head>
+
+<body>
+    <h1>About Me</h1>
+    <p>What do I do?</p>
+    <img src="waterfall.jpg" width="500" height="500" alt="waterfall">
+    <br>
+    <img srcset="waterfall.jpg 4x,
+    waterfall.jpg 3x,
+    waterfall.jpg 2x,
+    waterfall.jpg 1x," src="waterfall.jpg" alt="waterfall">
+
+    <figure>
+        <img src="waterfall.jpg" width=300 height=300 alt="waterfall">
+        <figcaption>Wonderful Waterfall</figcaption>
+    </figure>
+</body>
+
 </html>
